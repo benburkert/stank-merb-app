@@ -1,6 +1,7 @@
 # dependencies are generated using a strict version, don't forget to edit the dependency versions when upgrading.
 merb_gems_version = "1.0.7.1"
 dm_gems_version   = "0.9.9"
+do_gems_version   = "0.9.10"
 
 # For more information about each component, please read http://wiki.merbivore.com/faqs/merb_components
 dependency "merb-action-args", merb_gems_version
@@ -21,3 +22,6 @@ dependency "dm-migrations", dm_gems_version
 dependency "dm-timestamps", dm_gems_version   
 dependency "dm-types", dm_gems_version        
 dependency "dm-validations", dm_gems_version  
+
+dependency "data_objects"
+dependency "do_mysql"
